@@ -72,6 +72,11 @@ Codeless drop-in universal library allows to prevent issues of keyboard sliding 
     */
     @objc public var keyboardDistanceFromTextField: CGFloat = 10.0
 
+    /**
+    计算上移距离是否忽略安全区域. 默认是 false.
+    */
+    @objc public var ignoreLayoutMargins: Bool = false
+    
     // MARK: IQToolbar handling
 
     /**

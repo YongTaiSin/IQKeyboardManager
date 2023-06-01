@@ -1,7 +1,7 @@
 PODS:
   - IQDropDownTextField (1.1.1)
-  - IQKeyboardManager (6.5.8)
-  - IQKeyboardManagerSwift (6.5.8)
+  - IQKeyboardManager (6.5.11)
+  - IQKeyboardManagerSwift (6.5.11)
   - SwiftLint (0.40.0)
 
 DEPENDENCIES:
@@ -23,10 +23,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
-  IQKeyboardManager: 1943526a2fa1a6ea24f90c845c274b0e80dd1912
-  IQKeyboardManagerSwift: 8139150a3c90a915a413d72a8a3e8634c2d3278b
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
   SwiftLint: 4154893c73a4c52d6240195507eb7a3e3c64087e
 
 PODFILE CHECKSUM: dbd75d6b8b35d0cdee14571c29ff90fc1ce4a9ed
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.0

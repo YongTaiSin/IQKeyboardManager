@@ -246,10 +246,11 @@ public extension IQKeyboardManager {
 
         //Special case: when the textView is not scrollable, then we'll be scrolling to the bottom part and let hide the top part above
         if isNonScrollableTextView {
-            move = textFieldViewRectInWindow.maxY - visibleHeight + bottomLayoutGuide
+            move = textFieldViewRectInWindow.maxY - visibleHeight + (ignoreLayoutMargins ? 0 : bottomLayoutGuide)
         } else {
-            move = min(textFieldViewRectInRootSuperview.minY-(topLayoutGuide), textFieldViewRectInWindow.maxY - visibleHeight + bottomLayoutGuide)
+            move = min(textFieldViewRectInRootSuperview.minY-(topLayoutGuide), textFieldViewRectInWindow.maxY - visibleHeight + (ignoreLayoutMargins ? 0 : bottomLayoutGuide))
         }
+        
 
         showLog("Need to move: \(move)")
 
